@@ -1,0 +1,195 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L
+#
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MASA_Library_47219-2001
+#
+DEF MASA_Library_47219-2001 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "MASA_Library_47219-2001" 1150 200 50 H V L CNN
+F2 "472192001" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/47219-2001.pdf" 1150 0 50 H I L CNN
+F4 "Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination" 1150 -100 50 H I L CNN "Description"
+F5 "538-47219-2001" 1150 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-47219-2001" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Molex" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F8 "47219-2001" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -600 200 -600 200 100 N
+X DAT2 1 0 0 200 R 50 50 0 0 U
+X GND_2 10 1300 -300 200 L 50 50 0 0 U
+X GND_3 11 1300 -400 200 L 50 50 0 0 U
+X GND_4 12 1300 -500 200 L 50 50 0 0 U
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 U
+X CMD 3 0 -200 200 R 50 50 0 0 U
+X VDD 4 0 -300 200 R 50 50 0 0 U
+X CLK 5 0 -400 200 R 50 50 0 0 U
+X VSS 6 0 -500 200 R 50 50 0 0 U
+X DAT0 7 1300 0 200 L 50 50 0 0 U
+X DAT1 8 1300 -100 200 L 50 50 0 0 U
+X GND_1 9 1300 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# dk_Logic-Translators-Level-Shifters_TXB0104PWR
+#
+DEF dk_Logic-Translators-Level-Shifters_TXB0104PWR U 0 20 Y Y 1 F N
+F0 "U" -250 450 60 H V C CNN
+F1 "dk_Logic-Translators-Level-Shifters_TXB0104PWR" -150 550 60 H V R CNN
+F2 "digikey-footprints:TSSOP-14_W4.4mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" 200 300 60 H I L CNN
+F4 "296-21929-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TXB0104PWR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Logic - Translators, Level Shifters" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC TRNSLTR BIDIRECTIONAL 14TSSOP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 400 200 -400 0 1 0 f
+P 2 0 1 0 -200 -100 -125 -100 N
+P 2 0 1 0 -200 100 -125 100 N
+P 2 0 1 0 -125 0 -200 0 N
+P 2 0 1 0 -125 200 -200 200 N
+P 2 0 1 0 25 -100 100 -100 N
+P 2 0 1 0 25 200 100 200 N
+P 2 0 1 0 100 0 25 0 N
+P 2 0 1 0 100 100 25 100 N
+P 4 0 1 0 -75 -100 -75 -150 -25 -125 -75 -100 F
+P 4 0 1 0 -75 -75 -125 -75 -125 -125 -75 -125 N
+P 4 0 1 0 -75 -75 -25 -50 -25 -100 -75 -75 F
+P 4 0 1 0 -75 0 -75 -50 -25 -25 -75 0 F
+P 4 0 1 0 -75 25 -125 25 -125 -25 -75 -25 N
+P 4 0 1 0 -75 25 -25 50 -25 0 -75 25 F
+P 4 0 1 0 -75 100 -75 50 -25 75 -75 100 F
+P 4 0 1 0 -75 125 -125 125 -125 75 -75 75 N
+P 4 0 1 0 -75 125 -25 150 -25 100 -75 125 F
+P 4 0 1 0 -75 200 -75 150 -25 175 -75 200 F
+P 4 0 1 0 -75 225 -125 225 -125 175 -75 175 N
+P 4 0 1 0 -75 225 -25 250 -25 200 -75 225 F
+P 4 0 1 0 -25 -75 25 -75 25 -125 -25 -125 N
+P 4 0 1 0 -25 25 25 25 25 -25 -25 -25 N
+P 4 0 1 0 -25 125 25 125 25 75 -25 75 N
+P 4 0 1 0 -25 225 25 225 25 175 -25 175 N
+X VCCA 1 -100 500 100 D 50 40 1 1 W
+X B4 10 300 -100 100 L 50 40 1 1 B
+X B3 11 300 0 100 L 50 40 1 1 B
+X B2 12 300 100 100 L 50 40 1 1 B
+X B1 13 300 200 100 L 50 40 1 1 B
+X VCCB 14 0 500 100 D 50 40 1 1 W
+X A1 2 -400 200 100 R 50 40 1 1 B
+X A2 3 -400 100 100 R 50 40 1 1 B
+X A3 4 -400 0 100 R 50 40 1 1 B
+X A4 5 -400 -100 100 R 50 40 1 1 B
+X NC 6 300 -200 100 L 50 40 1 1 N
+X GND 7 0 -500 100 U 50 40 1 1 W
+X OE 8 -400 -200 100 R 50 40 1 1 T
+X NC 9 300 -300 100 L 50 40 1 1 N
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
